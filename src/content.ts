@@ -16,41 +16,47 @@ export const content: AppContent = {
     buttonText: "Comenzar"
   },
   results: {
+    // TERRITORIO 1
     [DiagnosisKey.TORRE_CAIDA]: {
       titulo: "Tu Diagnóstico: Viajero en la Torre Caída",
-      descripcion: "Estás en el momento más crudo y valiente del viaje: el derrumbe de lo viejo. Sentirse perdido, solo y abrumado es una señal de que estás soltando un mundo que ya no te servía. <strong>No estás roto, estás renaciendo entre los escombros.</strong><br>Tu única tarea ahora es sobrevivir, respirar y saber que no estás solo. Cada sentimiento es válido. Este es el primer paso hacia una libertad que aún no puedes imaginar.",
-      ctaTexto: "Descarga tu Kit de Primeros Auxilios",
-      ctaLink: "#torre-caida-link"
+      descripcion: "Lo que estás viviendo tiene un nombre: la <strong>Noche Oscura del Alma</strong>. Es el momento más crudo y valiente del viaje, cuando el mundo que conocías se derrumba. Sentirse perdido, solo y abrumado no es una señal de que estés roto; es la prueba de que estás soltando un mundo que ya era demasiado pequeño para ti.<br><br>No estás solo en este exilio. Tu única tarea ahora es sobrevivir, respirar y sentir. Cada lágrima es una limpieza. Cada momento de caos precede a la claridad. Este es el primer paso hacia una libertad que aún no puedes imaginar.",
+      ctaTexto: "Necesitas Primeros Auxilios, no Filosofía. Descarga tu Kit.",
+      ctaLink: "https://forms.gle/4c8Aa1xkjcwq9thp9"
     },
+    // TERRITORIO 2a
     [DiagnosisKey.LABORATORIO_ERUDITO]: {
-      titulo: "Tu Diagnóstico: El Laboratorio del Erudito",
-      descripcion: "Has cubierto un terreno increíble. Tu alma ha estado devorando conocimiento para construir una nueva y sólida base. Has acumulado mapas, herramientas y sabiduría. ¡Eso es un logro inmenso!<br>Ahora, el siguiente paso no es aprender más, sino encontrar un lugar seguro para empezar a <strong>practicar y encarnar todo lo que sabes</strong>. Es hora de convertir el conocimiento en poder vivido.",
-      ctaTexto: "Convierte tu Saber en Poder",
-      ctaLink: "#laboratorio-erudito-link"
+      titulo: "Tu Diagnóstico: El Laboratorio del Erudito Apasionado",
+      descripcion: "Tu alma está en una fase de <strong>búsqueda y consumo ferviente</strong>. Has cubierto un terreno increíble, devorando libros, cursos y sabiduría para construir una nueva y sólida base. Este hambre de conocimiento es una señal de tu compromiso y es un logro inmenso. ¡Celébralo!<br><br>Sin embargo, puede que ya sientas que el vaso se está llenando. El siguiente paso no es aprender más, sino encontrar un lugar seguro donde empezar a <strong>practicar y encarnar todo lo que sabes</strong>. Es hora de pasar de la biblioteca a la forja.",
+      ctaTexto: "Convierte tu Saber en Poder Vivido. Únete al Challenge.",
+      ctaLink: "https://forms.gle/D2McN5R38x1h7cAp7"
     },
+    // TERRITORIO 2b
     [DiagnosisKey.LABORATORIO_REY_PACIENTE]: {
       titulo: "Tu Diagnóstico: El Laboratorio del Rey Paciente",
-      descripcion: "Posees una sabiduría inmensa. Tienes el mapa, las herramientas y la brújula, pero te has quedado admirando el paisaje desde la ventana del laboratorio. El conocimiento sin acción se convierte en una <strong>jaula dorada</strong>.<br>Sabemos que te sientes estancado, esperando el momento perfecto. Ese momento es una ilusión. El verdadero poder está en el primer paso, por imperfecto que sea.",
-      ctaTexto: "Rompe la Parálisis Ahora",
-      ctaLink: "#laboratorio-rey-paciente-link"
+      descripcion: "Estás en una etapa conocida como <strong>'parálisis por análisis'</strong>. Posees una sabiduría inmensa, tienes el mapa y las herramientas, pero te has quedado admirando el paisaje desde la ventana del laboratorio. El conocimiento sin acción se convierte en una jaula dorada, y la frase 'necesito sanar un poco más' es el mantra del estancamiento.<br><br>Sabemos que te sientes frustrado, esperando el momento 'perfecto'. Ese momento es una ilusión. El verdadero poder que anhelas está justo al otro lado del primer paso, por imperfecto que sea.",
+      ctaTexto: "La Sanación sin Acción es un Hobby. Rompe la Parálisis Ahora.",
+      ctaLink: "https://forms.gle/D2McN5R38x1h7cAp7"
     },
+    // TERRITORIO 2 Híbrido
     [DiagnosisKey.TRANSICION_LABORATORIO]: {
-      titulo: "Tu Diagnóstico: En Transición del Laboratorio",
-      descripcion: "Estás en el umbral más excitante: el puente entre el saber y el hacer. Has sido tanto el erudito que acumula conocimiento como el rey que duda en actuar. Reconocer esta dualidad es la clave para integrarla.<br>Estás listo para dejar de planificar la vida y <strong>empezar a vivirla</strong>. La parálisis está cediendo y la sabiduría que has acumulado está ansiosa por manifestarse en el mundo real.",
-      ctaTexto: "Cruza el Puente a la Acción",
-      ctaLink: "#transicion-laboratorio-link"
+      titulo: "Tu Diagnóstico: En el Umbral del Laboratorio a la Forja",
+      descripcion: "Estás en el punto de inflexión más poderoso: el puente entre el saber y el hacer. Has sido tanto el erudito que acumula, como el rey que duda. Reconocer esta dualidad es la clave para integrarla. Ya no eres el que solo aprende, ni el que solo se paraliza. Eres el que está <strong>a punto de actuar con sabiduría</strong>.<br><br>La parálisis está cediendo y la biblioteca de tu alma está ansiosa por manifestar sus tesoros en el mundo real. Estás listo para dejar de planificar la vida y empezar a vivirla.",
+      ctaTexto: "Estás Listo. Cruza el Puente a la Acción con Apoyo.",
+      ctaLink: "https://forms.gle/D2McN5R38x1h7cAp7"
     },
+    // TERRITORIO 3
     [DiagnosisKey.FORJA_REY]: {
-      titulo: "Tu Diagnóstico: La Forja del Rey",
-      descripcion: "Estás en el fuego de la creación. Ves el trono, sabes que es tuyo y estás dando los pasos para reclamarlo, pero cada paso es una batalla. Este autosabotaje y miedo no son señales de debilidad, sino la <strong>resistencia final de tu antiguo yo</strong>.<br>Cada vez que eliges la acción a pesar del miedo, estás forjando la corona que estás destinado a llevar. Estás más cerca de lo que crees.",
-      ctaTexto: "Reclama tu Trono",
-      ctaLink: "#forja-rey-link"
+      titulo: "Tu Diagnóstico: La Forja del Rey Creador",
+      descripcion: "Bienvenido al fuego de la creación. Estás en la etapa del <strong>'salto de fe'</strong>. Ves el trono, sabes que es tuyo y estás dando los pasos, pero cada avance se siente como una batalla contra tu propio autosabotaje. Este miedo intenso no es una señal de debilidad; es la resistencia final de tu antiguo yo, el Guardián del Trono Roto.<br><br>Cada vez que eliges la acción a pesar del miedo, estás forjando la corona que estás destinado a llevar. La confianza no viene antes del salto, se construye en la caída. Estás más cerca de lo que crees.",
+      ctaTexto: "No Necesitas más Mapas, Necesitas un Empuje. Reclama tu Trono.",
+      ctaLink: "https://form.typeform.com/to/EsF4Gi2g"
     },
+    // TERRITORIO 4
     [DiagnosisKey.PARAISO_TERRENAL]: {
-      titulo: "Tu Diagnóstico: El Paraíso Terrenal",
-      descripcion: "Has llegado a un lugar de paz e integración que muchos solo sueñan. Has convertido tu mundo interior en un jardín floreciente y ahora actúas desde la plenitud y la gracia. <strong>Ya no luchas contra la vida, bailas con ella.</strong><br>Tu viaje ahora no es sobre sanar, sino sobre expandir. ¿Qué nuevos niveles de alegría, creación y asombro puedes descubrir? El paraíso no es un destino final, es un punto de partida.",
-      ctaTexto: "Explora Nuevos Horizontes",
-      ctaLink: "#paraiso-terrenal-link"
+      titulo: "Tu Diagnóstico: Arquitecto del Paraíso Terrenal",
+      descripcion: "Has llegado a un lugar de paz e integración que muchos solo anhelan. Has aprendido a encarnar tu sabiduría, convirtiendo tu mundo interior en un jardín floreciente. Ya no luchas contra la vida, <strong>bailas con ella en co-creación consciente</strong>.<br><br>Tu viaje ahora no es sobre sanar, sino sobre expandir. La pregunta ya no es '¿cómo arreglo esto?', sino '¿qué tan bueno puede llegar a ser?'. El paraíso no es un destino final, es un nuevo punto de partida. Es hora de encontrar a otros exploradores.",
+      ctaTexto: "La Sanación Terminó. La Aventura Comienza. Explora.",
+      ctaLink: "#link-a-la-aplicacion-premium"
     }
   }
 };

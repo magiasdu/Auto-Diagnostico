@@ -12,7 +12,7 @@ interface AppContent {
 export const content: AppContent = {
   welcome: {
     title: "Un espejo para tu alma.",
-    description: "Este no es un examen. Es un espejo. Lee cada opción y elige la que haga que tu corazón y tus entrañas digan 'sí, ese soy yo ahora mismo'.<br><strong>Confía en tu primera reacción.</strong>",
+    description: "Este no es un examen. Es un espejo. Lee cada opción y elige la que haga que tu cuerpo y tu alma digan 'sí, ese soy yo ahora mismo'.<br><strong>Confía en tu primera reacción.</strong>",
     buttonText: "Comenzar"
   },
   results: {

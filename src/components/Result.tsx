@@ -1,6 +1,7 @@
 import React from 'react';
 import { content } from '../content';
 import type { DiagnosisKey } from '../types';
+import SafeText from './SafeText';
 
 interface ResultProps {
   diagnosisKey: DiagnosisKey | null;
@@ -33,9 +34,9 @@ const Result: React.FC<ResultProps> = ({ diagnosisKey }) => {
                 <svg className="w-16 h-16 mx-auto text-brand-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
             </div>
             <h1 className="text-4xl md:text-5xl font-serif text-brand-text mb-6">{resultData.titulo}</h1>
-            <p 
-              className="text-xl text-gray-600 mb-12 leading-relaxed"
-              dangerouslySetInnerHTML={{ __html: resultData.descripcion }}
+            <SafeText 
+              text={resultData.descripcion}
+              className="text-xl text-gray-600 mb-12 leading-relaxed block"
             />
             <a
                 href={resultData.ctaLink}

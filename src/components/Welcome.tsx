@@ -1,5 +1,6 @@
 import React, { useEffect, useCallback } from 'react';
 import { content } from '../content';
+import SafeText from './SafeText';
 
 interface WelcomeProps {
     onStart: () => void;
@@ -25,9 +26,9 @@ const Welcome: React.FC<WelcomeProps> = ({ onStart }) => {
             <h1 className="text-4xl md:text-5xl font-serif text-brand-text mb-6">
                 {content.welcome.title}
             </h1>
-            <p 
-                className="text-xl text-gray-600 mb-10 leading-relaxed"
-                dangerouslySetInnerHTML={{ __html: content.welcome.description }}
+            <SafeText 
+                text={content.welcome.description}
+                className="text-xl text-gray-600 mb-10 leading-relaxed block"
             />
             <button
                 onClick={onStart}

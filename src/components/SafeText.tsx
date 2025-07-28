@@ -10,7 +10,7 @@ const SafeText: React.FC<SafeTextProps> = ({ text, className = '' }) => {
     const parts = text.split('<br>');
     
     return parts.map((part, index) => {
-      const strongMatch = part.match(/^(.+?)<strong>(.+?)<\/strong>(.*)$/);
+      const strongMatch = part.match(/(.*?)<strong>(.+?)<\/strong>(.*)/);
       
       if (strongMatch) {
         const [, before, strongText, after] = strongMatch;
